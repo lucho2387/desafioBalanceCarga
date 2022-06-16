@@ -1,4 +1,4 @@
-<!-- COMANDOS -->
+COMANDOS 
 
 <!-- MODO FORK O CLUSTER -->
 <!-- nodemon src/server1.js --MODO CLUSTER -->
