@@ -8,7 +8,7 @@ npm run start (forever start src/index.js)
 npm run stop (forever stop src/index.js )
 npm run list (forever list)
 
-<!-- PM2 -->
+PM2 
 npm run pstart (pm2 start src/index.js )
 npm run pstop ( pm2 stop src/index.js)
 npm run pwatch (pm2 start src/index.js --watch)
