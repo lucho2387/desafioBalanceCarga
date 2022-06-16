@@ -1,0 +1,24 @@
+2022/06/15 11:53:46 [error] 5752#9652: *1 CreateFile() "D:\nginx-1.21.6/html/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/06/15 12:03:55 [notice] 13236#10968: signal process started
+2022/06/15 12:03:55 [error] 13236#10968: OpenEvent("Global\ngx_stop_1216") failed (5: Acceso denegado)
+2022/06/15 12:04:46 [notice] 8336#11716: signal process started
+2022/06/15 12:04:46 [error] 8336#11716: OpenEvent("Global\ngx_stop_1216") failed (5: Acceso denegado)
+2022/06/15 12:05:09 [notice] 9288#10024: signal process started
+2022/06/15 12:05:09 [error] 9288#10024: OpenEvent("Global\ngx_stop_1216") failed (5: Acceso denegado)
+2022/06/15 12:07:00 [notice] 8780#8440: signal process started
+2022/06/15 12:07:14 [notice] 10604#6192: signal process started
+2022/06/15 12:07:14 [error] 10604#6192: CreateFile() "D:\nginx-1.21.6/logs/nginx.pid" failed (2: El sistema no puede encontrar el archivo especificado)
+2022/06/15 12:08:04 [notice] 2664#7412: signal process started
+2022/06/15 12:08:04 [error] 2664#7412: CreateFile() "D:\nginx-1.21.6/logs/nginx.pid" failed (2: El sistema no puede encontrar el archivo especificado)
+2022/06/15 12:09:16 [notice] 528#6900: signal process started
+2022/06/15 12:09:16 [error] 528#6900: CreateFile() "D:\nginx-1.21.6/logs/nginx.pid" failed (2: El sistema no puede encontrar el archivo especificado)
+2022/06/15 12:12:06 [notice] 6728#5992: signal process started
+2022/06/15 12:12:13 [error] 9472#8948: *3 CreateFile() "D:\nginx-1.21.6/html/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/06/15 12:25:20 [notice] 7048#11248: signal process started
+2022/06/16 11:19:10 [error] 3768#9476: *2 CreateFile() "D:\CoderHouse\Backend\Clase 30\nginx-1.21.6/html/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2022/06/16 11:49:20 [notice] 1816#7992: signal process started
+2022/06/16 11:51:54 [notice] 1928#11960: signal process started
+2022/06/16 19:32:45 [notice] 6936#5600: signal process started
+2022/06/16 19:33:47 [notice] 8184#22412: signal process started
+2022/06/16 19:33:59 [error] 12056#14624: *37 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: nginx_node, request: "GET /api/randoms HTTP/1.1", upstream: "http://127.0.0.1:8083/api/randoms", host: "localhost:8080"
+2022/06/16 19:52:15 [notice] 21356#3800: signal process started

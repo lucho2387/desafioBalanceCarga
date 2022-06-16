@@ -1,0 +1,43 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "dev1": "nodemon src/server1.js --MODO CLUSTER",
+    "start": "forever start src/index.js",
+    "stop": "forever stop src/index.js",
+    "list": "forever list",
+    "pstart": "pm2 start src/index.js",
+    "pstop": "pm2 stop src/index.js",
+    "pwatch": "pm2 start src/index.js --watch",
+    "pcluster": "pm2 start src/index.js --watch -i max",
+    "pstopall": "pm2 stop src/index.js",
+    "pdeleteall": "pm2 delete all",
+    "prestart": "pm2 restart src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "minimist": "^1.2.6",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.3",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16",
+    "npm-check-updates": "^13.0.1"
+  }
+}
